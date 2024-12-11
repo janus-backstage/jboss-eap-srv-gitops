@@ -1,0 +1,21 @@
+app:
+  name: jboss-eap-srv
+  namespace: jboss-eap-srv-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/jboss-eap-srv.git
+  org: janus-backstage
+  name: jboss-eap-srv
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jboss-eap-srv
+  tag: latest
